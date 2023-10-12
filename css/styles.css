@@ -1,0 +1,182 @@
+/*body selectors*/
+body{
+  font-family: Montserrat;
+}
+.big-heading .testimonial-text .mid, .ctap{
+  font-family: Montserrat;
+  font-weight:900;}
+
+  .big-heading{
+    font-size: 3.5rem;
+  line-height: 1.5;}
+
+i{
+  margin-right: 4px;
+}
+
+h3{
+  font-family: Ubuntu;
+  font-weight: 400;
+}
+
+.testimonial-text{
+  font-family: Montserrat;
+  font-weight:900;
+  font-size: 3rem;
+  line-height: 4.5rem;
+}
+/* class selectors*/
+
+.dog{
+  width: 100%;
+}
+.container-fluid{
+  padding: 3% 15% 6%;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 3px;
+}
+
+.mid{
+font-family: Montserrat;
+font-weight: 900;
+font-size: 1.5rem;
+}
+
+.title-img{
+  transform:rotate(25deg);
+  width: 20%;
+  margin-left: 40px;
+  padding-bottom: 0;
+position: absolute;
+right: 20%;
+}
+
+ @media (max-width: 768px){
+  .title-img{
+    /* width: 7%;
+    position: absolute;
+    top:10%;
+    transform: rotate(35deg); */
+    visibility: hidden;
+   }
+
+   .c3{
+    margin-top: 10%;
+    margin-left: 25%;
+    margin-bottom: 0;
+  }
+ }
+
+.testimonial-image{
+  width:15%;
+  border-radius:100%;
+  margin: 20px;
+}
+
+.navbar{
+  padding:0 0 4.5rem 0;
+  font-weight: 200;
+}
+
+.nav-item{
+  padding: 0 18 0 18;
+}
+.nav-link{
+  font-size: 1.2rem;
+}
+
+.guarantees{
+  padding: 5%;
+  text-align: center;
+}
+
+.guarantee{
+  margin-bottom: 1rem;
+  color: #ef8172;
+}
+
+.color:hover{
+  color: #ff4c68;
+}
+
+.p1{
+  color: #8f8f8f;
+}
+
+.press-img{
+  width: 20%;
+  margin: 20px 20px 50px 20px;
+}
+
+.carousel-item{
+  padding: 7% 15% 7% 15%;
+}
+.card{
+  width: 350px;
+  box-shadow: 0.3px 0.3px 0.5px;
+  padding:0;
+}
+
+.butt{
+  margin: 0 1% 0 1%;
+}
+
+.ctap{
+  font-size: 3.5rem;
+  color: white;
+  line-height: 70px;
+  margin-bottom: 40px;
+}
+.brands{
+  border: none;
+  background-color: white;
+  padding-bottom: 10px;
+}
+.copy{
+  color:#D0C9C0;
+}
+/*id selectors*/
+#title{
+  background-color: #ff4c68;
+}
+
+#features{
+  padding: 7% 15%;
+  position: relative;
+  background-color: white;
+}
+
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding: 0 2% 5% 2% ;
+}
+
+#pricing{
+  padding:100px 100px 70px 100px;
+  
+  text-align: center;
+}
+
+#cta{
+  text-align:center;
+  background-color: #ff4c68;
+  padding: 15%;
+}
+
+#footer{
+  text-align:center;
+  background-color: white;
+  padding: 5%;
+}
